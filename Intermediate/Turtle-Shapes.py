@@ -3,6 +3,8 @@ from turtle import Turtle, Screen
 import random
 
 colors = ['blue', 'green', 'dark orange', 'firebrick']
+
+
 def shape(the_turtle, sides, angle):
     for _ in range(sides):
         the_turtle.forward(100)
