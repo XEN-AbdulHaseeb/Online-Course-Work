@@ -13,6 +13,7 @@ screen.colormode(255)
 my_lil_turtle = Turtle()
 my_lil_turtle.speed('fastest')
 my_lil_turtle.penup()
+my_lil_turtle.hideturtle()
 my_lil_turtle.setpos(-225, -200)  # Optimal coordinates obtained after trial and error using pos()
 current_pos = my_lil_turtle.pos()  # Deprecated but kept for demonstration purposes
 for _ in range(10):
